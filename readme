@@ -1,0 +1,4 @@
+MatLab-havaintoja:
+-Matlab suostuu tallentamaan Bank_A:lla n. 100 fps (4096x2304), riippuen tallennuksen pituudesta.
+Ale 50 frames -kokoisilla tedostoilla fps nousee selvästi.
+-Käytettäessä Banks_ABCD Banks_A sijasta ohjelma usein kaatuu
