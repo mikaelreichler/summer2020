@@ -7,7 +7,7 @@ Set variables in the beginning of the document:
 
 File directory and name (fileDirectory)
 Number of frames in the recording (framecount), large framecounts takes pretty long to process and write to disk
-Framerate (framerate), can be set between 30 and 230 Hz, 
+Framerate (framerate), can be set between 30 and 234 Hz, 
 Exposure time of individual frames in microseconds (exposure), minimum is 5 and maximum depends on framerate. Check out ExposureTimes.png (in the current folder)
 
 To run/record, press F5
