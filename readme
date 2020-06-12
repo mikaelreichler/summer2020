@@ -1,4 +1,15 @@
-MatLab-havaintoja:
--Matlab suostuu tallentamaan Bank_A:lla n. 100 fps (4096x2304), riippuen tallennuksen pituudesta.
-Ale 50 frames -kokoisilla tedostoilla fps nousee selvästi.
--Käytettäessä Banks_ABCD Banks_A sijasta ohjelma usein kaatuu
+Matlab-ohjeet:
+-----------------
+
+Open file Grab_Matlab.m with MatLab
+
+Set variables in the beginning of the document: 
+
+File directory and name (fileDirectory)
+Number of frames in the recording (framecount), large framecounts takes pretty long to process and write to disk
+Framerate (framerate), can be set between 30 and 230 Hz, 
+Exposure time of individual frames in microseconds (exposure), minimum is 5 and maximum depends on framerate. Check out ExposureTimes.png (in the current folder)
+
+To run/record, press F5
+
+The frame acquasition starts after about 6 seconds, and matlab prints 'starting acquisition'.
