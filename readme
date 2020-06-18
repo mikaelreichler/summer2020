@@ -1,3 +1,14 @@
+C++/Egrabber:
+-----------------
+
+grab_egrabber.cpp - koodilla kamera tallentaa nyt ainakin: (kokeiltu) 1024x512; 4000 fps; 500 framea; putkeen tietokoneen levylle.
+Enempikin varmaan onnistuu mutten ehtinyt vielä testailemaan
+config.js - tiedostolla grabberin ja kameran konfigurointi onnistuu
+
+
+
+
+
 Matlab-ohjeet:
 -----------------
 
